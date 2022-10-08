@@ -1,0 +1,38 @@
+{
+    "instance": 0,
+    "tests": [],
+    "size": 2,
+    "formatTemplate": {"list": [
+        {
+            "high": 2,
+            "low": 1,
+            "type": "dvar"
+        },
+        {
+            "high": 2,
+            "low": 1,
+            "type": "dvar"
+        }
+    ]},
+    "solutions": [
+        {"list": [
+            1,
+            2
+        ]},
+        {"list": [
+            2,
+            1
+        ]}
+    ],
+    "nonSolutions": [
+        {"list": [
+            2,
+            2
+        ]},
+        {"list": [
+            1,
+            1
+        ]}
+    ],
+    "problemType": "type13"
+}

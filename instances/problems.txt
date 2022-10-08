@@ -1,0 +1,18 @@
+From https://www.youtube.com/watch?v=6oZW55C-8bo&list=PL97NT99ttj2AAQh9_KxxEGVBA_X79pVhD&index=9
+    minute 17:35
+
+01: Graph Coloring              graph as data, optimization
+02: N-queens        CSPlib 054
+03: Warehouse loc   CSPlib 034  cost matrix/vector as data, implicit cost vars
+04: Golomb Ruler    CSPlib 006  implicit decis vars, optimization
+05: Sudoku          Pre-asgn    pre-assign as data, single solution
+06: Sudoku          No pre      many solutions
+07: Schur's Lemma   CSPlib 015  non-standard variable pattern, ternery constr
+08: All Interval    CSPlib 007  auxiliary vars
+10: Magic Squares   CSPlib 019  implicit formula
+11: Orth Latin Sq   Euler       constraint on tuples
+12: BIBD            CSPlib 028  3 params, implicit formulas, symm breaking
+13: Costas Array    CSPlib 076  aux vars, constraints on tuples
+14: N-Queens vari   fairy chess ?
+15: N-Queens vari
+16: N-Queens vari

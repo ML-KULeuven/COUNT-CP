@@ -1,0 +1,7779 @@
+{
+    "inputData": {
+        "nrWarehouses": 3,
+        "nrCustomers": 9,
+        "customerCost": [
+            {
+                "cost": 12,
+                "warehouse": 0,
+                "customer": 0
+            },
+            {
+                "cost": 19,
+                "warehouse": 0,
+                "customer": 1
+            },
+            {
+                "cost": 19,
+                "warehouse": 0,
+                "customer": 2
+            },
+            {
+                "cost": 11,
+                "warehouse": 0,
+                "customer": 3
+            },
+            {
+                "cost": 17,
+                "warehouse": 0,
+                "customer": 4
+            },
+            {
+                "cost": 13,
+                "warehouse": 0,
+                "customer": 5
+            },
+            {
+                "cost": 10,
+                "warehouse": 0,
+                "customer": 6
+            },
+            {
+                "cost": 12,
+                "warehouse": 0,
+                "customer": 7
+            },
+            {
+                "cost": 12,
+                "warehouse": 0,
+                "customer": 8
+            },
+            {
+                "cost": 11,
+                "warehouse": 1,
+                "customer": 0
+            },
+            {
+                "cost": 17,
+                "warehouse": 1,
+                "customer": 1
+            },
+            {
+                "cost": 13,
+                "warehouse": 1,
+                "customer": 2
+            },
+            {
+                "cost": 13,
+                "warehouse": 1,
+                "customer": 3
+            },
+            {
+                "cost": 16,
+                "warehouse": 1,
+                "customer": 4
+            },
+            {
+                "cost": 17,
+                "warehouse": 1,
+                "customer": 5
+            },
+            {
+                "cost": 11,
+                "warehouse": 1,
+                "customer": 6
+            },
+            {
+                "cost": 12,
+                "warehouse": 1,
+                "customer": 7
+            },
+            {
+                "cost": 17,
+                "warehouse": 1,
+                "customer": 8
+            },
+            {
+                "cost": 13,
+                "warehouse": 2,
+                "customer": 0
+            },
+            {
+                "cost": 12,
+                "warehouse": 2,
+                "customer": 1
+            },
+            {
+                "cost": 10,
+                "warehouse": 2,
+                "customer": 2
+            },
+            {
+                "cost": 13,
+                "warehouse": 2,
+                "customer": 3
+            },
+            {
+                "cost": 11,
+                "warehouse": 2,
+                "customer": 4
+            },
+            {
+                "cost": 15,
+                "warehouse": 2,
+                "customer": 5
+            },
+            {
+                "cost": 17,
+                "warehouse": 2,
+                "customer": 6
+            },
+            {
+                "cost": 14,
+                "warehouse": 2,
+                "customer": 7
+            },
+            {
+                "cost": 13,
+                "warehouse": 2,
+                "customer": 8
+            }
+        ],
+        "warehouseCost": [
+            {
+                "cost": 97,
+                "warehouse": 0
+            },
+            {
+                "cost": 53,
+                "warehouse": 1
+            },
+            {
+                "cost": 52,
+                "warehouse": 2
+            }
+        ]
+    },
+    "instance": 0,
+    "tests": [
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                0,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                2,
+                0,
+                0,
+                0,
+                1,
+                2,
+                2
+            ],
+            "objective": 250220
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                2,
+                2
+            ],
+            "objective": 955863
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                0,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 221
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 220
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                1,
+                2,
+                2,
+                0,
+                1,
+                0
+            ],
+            "objective": 222
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 692586
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 220
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                2,
+                0,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                2,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                1,
+                1,
+                2,
+                0,
+                2,
+                0,
+                0
+            ],
+            "objective": 396092
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 222
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                2,
+                0,
+                1,
+                0,
+                2,
+                2
+            ],
+            "objective": 840896
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                0,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 222
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 903761
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                2,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                0,
+                0,
+                2,
+                2,
+                1,
+                2,
+                1,
+                0
+            ],
+            "objective": 538333
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 770355
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                2,
+                2,
+                0,
+                1,
+                2
+            ],
+            "objective": 357309
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                0,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 220
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1,
+                1,
+                2
+            ],
+            "objective": 218
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 6261
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 532150
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 218
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                0,
+                1,
+                2
+            ],
+            "objective": 756630
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                0,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                0,
+                0,
+                1,
+                1,
+                2,
+                0,
+                2
+            ],
+            "objective": 751820
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                2,
+                1,
+                2,
+                2
+            ],
+            "objective": 160589
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 936672
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 240
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                2,
+                1,
+                0,
+                2,
+                1,
+                1,
+                2,
+                0
+            ],
+            "objective": 358796
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 520636
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                2,
+                1,
+                0,
+                1,
+                2,
+                0,
+                0,
+                1
+            ],
+            "objective": 481608
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                1,
+                0,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 330026
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 220
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                0,
+                0,
+                2,
+                0
+            ],
+            "objective": 253432
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 267267
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                0,
+                2,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1
+            ],
+            "objective": 103506
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 206292
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                0,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                2,
+                0,
+                2,
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "objective": 163976
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                2,
+                0,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1
+            ],
+            "objective": 367919
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 4811
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                0,
+                2,
+                2,
+                2,
+                0,
+                2
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                2,
+                1,
+                2,
+                0,
+                2,
+                1
+            ],
+            "objective": 176545
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 220
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        }
+    ],
+    "formatTemplate": {
+        "warehouses": [
+            {
+                "high": 1,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 1,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 1,
+                "low": 0,
+                "type": "dvar"
+            }
+        ],
+        "customers": [
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            },
+            {
+                "high": 2,
+                "low": 0,
+                "type": "dvar"
+            }
+        ],
+        "objective": {
+            "high": 1000000,
+            "low": 0,
+            "type": "dvar"
+        }
+    },
+    "solutions": [
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 221
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 222
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 237
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 237
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 221
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 218
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 240
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 222
+        }
+    ],
+    "nonSolutions": [
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                0,
+                0,
+                2,
+                0,
+                1,
+                0,
+                2
+            ],
+            "objective": 741463
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                0,
+                2,
+                0,
+                1,
+                2,
+                1,
+                2,
+                2
+            ],
+            "objective": 39911
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                2,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "objective": 276286
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                0,
+                2,
+                2,
+                1,
+                0
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                2,
+                1,
+                2,
+                0,
+                1,
+                2,
+                1
+            ],
+            "objective": 793121
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 221
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                2,
+                0,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                0,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                0,
+                2,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                0,
+                1,
+                1,
+                2,
+                0,
+                2,
+                1
+            ],
+            "objective": 652493
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "objective": 503253
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                1,
+                2,
+                0,
+                2,
+                0,
+                2,
+                2
+            ],
+            "objective": 461147
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                2,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            "objective": 38605
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                0,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 112738
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                2,
+                2,
+                0,
+                2,
+                0
+            ],
+            "objective": 890377
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                0,
+                1,
+                2
+            ],
+            "objective": 918642
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 715553
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 183766
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 636877
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                2,
+                2,
+                0,
+                1,
+                0,
+                0
+            ],
+            "objective": 5974
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 218
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                0
+            ],
+            "objective": 882002
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                0,
+                2,
+                1
+            ],
+            "objective": 826117
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                1,
+                2,
+                0,
+                0,
+                1,
+                2
+            ],
+            "objective": 65734
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                2,
+                1
+            ],
+            "objective": 199039
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 637
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 961559
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                0,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                0,
+                2,
+                0,
+                0,
+                0
+            ],
+            "objective": 445001
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                2,
+                1,
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "objective": 850773
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                1
+            ],
+            "objective": 378076
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 220
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                0,
+                0,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 551290
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                0,
+                0,
+                1,
+                1,
+                2
+            ],
+            "objective": 278355
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                2,
+                0,
+                1,
+                2,
+                2,
+                1,
+                0,
+                1
+            ],
+            "objective": 536195
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                0,
+                1
+            ],
+            "objective": 240
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                2,
+                0,
+                2,
+                2,
+                0,
+                1
+            ],
+            "objective": 585163
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 330456
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                0,
+                2,
+                2,
+                1,
+                2,
+                0,
+                1,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                0,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                0,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 441154
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "objective": 923401
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 184339
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                0,
+                0,
+                2,
+                2,
+                1,
+                1,
+                2,
+                2
+            ],
+            "objective": 114758
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                2,
+                0,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                0,
+                1
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                0
+            ],
+            "objective": 222
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                0,
+                2,
+                0,
+                0,
+                2,
+                2,
+                1,
+                0,
+                2
+            ],
+            "objective": 671184
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+            ],
+            "objective": 720419
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                0,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                0,
+                1,
+                2
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                0,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                0,
+                2,
+                2,
+                2
+            ],
+            "objective": 973394
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                0,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                2,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "objective": 861988
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                0,
+                0,
+                2,
+                2,
+                0,
+                2,
+                0,
+                1
+            ],
+            "objective": 145510
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                0,
+                2,
+                1,
+                2,
+                2,
+                0
+            ],
+            "objective": 906041
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 650437
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 587922
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            "objective": 371124
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                2,
+                1,
+                2,
+                1
+            ],
+            "objective": 975363
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                0,
+                2,
+                1,
+                2,
+                2,
+                0,
+                0
+            ],
+            "objective": 447078
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 666298
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                0,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 432461
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 986619
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                0
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                0,
+                1,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "objective": 876710
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0
+            ],
+            "objective": 16323
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                2,
+                1,
+                2,
+                0,
+                0,
+                2,
+                1
+            ],
+            "objective": 9040
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                2,
+                0,
+                2,
+                1,
+                2,
+                0,
+                1,
+                0
+            ],
+            "objective": 221504
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                0
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                0,
+                1
+            ],
+            "objective": 221
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                2
+            ],
+            "objective": 276417
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                2,
+                2
+            ],
+            "objective": 568102
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                2
+            ],
+            "objective": 525405
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                0
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                0,
+                1,
+                2,
+                2,
+                0
+            ],
+            "objective": 931955
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                0,
+                1,
+                1,
+                2
+            ],
+            "objective": 165584
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                0,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                0,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            "objective": 123743
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                0
+            ],
+            "objective": 237
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                1,
+                1,
+                2,
+                0,
+                1,
+                2
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                2
+            ],
+            "objective": 304658
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                0,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                1,
+                0,
+                0,
+                2,
+                2
+            ],
+            "objective": 979084
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                0,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2,
+                1
+            ],
+            "objective": 514005
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                0,
+                0,
+                2,
+                0,
+                1,
+                1,
+                0,
+                2,
+                1
+            ],
+            "objective": 902716
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                0,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "objective": 206870
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                0
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1
+            ],
+            "objective": 984822
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 236
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1,
+                1,
+                1
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                0,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 695394
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 491180
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                2,
+                1,
+                1,
+                0,
+                1,
+                2
+            ],
+            "objective": 117410
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                0,
+                1,
+                2,
+                0,
+                2,
+                2,
+                2
+            ],
+            "objective": 35480
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                0,
+                2,
+                1,
+                1,
+                2,
+                0,
+                2,
+                2
+            ],
+            "objective": 148775
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 202796
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                0,
+                2,
+                0,
+                2,
+                2,
+                1
+            ],
+            "objective": 714087
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 536778
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                1,
+                0
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                0,
+                0,
+                0,
+                1,
+                2,
+                2,
+                0,
+                0
+            ],
+            "objective": 83563
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 341622
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 92089
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 709025
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2
+            ],
+            "objective": 345537
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                2
+            ],
+            "objective": 80213
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                0,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                2,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "objective": 503482
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 639137
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 833435
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                0,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                0,
+                1,
+                2,
+                1,
+                0
+            ],
+            "objective": 212082
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                0,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 224
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 222
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                0
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                2,
+                2,
+                0,
+                0,
+                2,
+                1,
+                0,
+                2
+            ],
+            "objective": 286747
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                0,
+                1
+            ],
+            "objective": 260770
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                0,
+                0,
+                0,
+                2,
+                1,
+                0,
+                0,
+                1
+            ],
+            "objective": 972747
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                1,
+                2,
+                0,
+                1,
+                0,
+                1
+            ],
+            "objective": 217225
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 555734
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "objective": 237
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                2,
+                1,
+                2,
+                0,
+                2,
+                0,
+                0,
+                2
+            ],
+            "objective": 210863
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                0,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                2,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "objective": 240
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                0,
+                1,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1
+            ],
+            "objective": 667597
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 232
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 227
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                0,
+                0,
+                0
+            ],
+            "objective": 121830
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                2,
+                2,
+                0,
+                1,
+                1,
+                2,
+                1
+            ],
+            "objective": 247979
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                0,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 238
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "objective": 237954
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "objective": 523061
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 233
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 240
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "objective": 277449
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                2,
+                2,
+                0,
+                0,
+                1,
+                2,
+                0,
+                0
+            ],
+            "objective": 592357
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                0,
+                1,
+                2
+            ],
+            "objective": 226
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "objective": 594875
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                1
+            ],
+            "customers": [
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "objective": 596139
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "objective": 240
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                0,
+                1,
+                2
+            ],
+            "objective": 228
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 27911
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                0,
+                2,
+                1,
+                1,
+                2,
+                0,
+                2,
+                0,
+                0
+            ],
+            "objective": 398707
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                0,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 229
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                0,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 223
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                0,
+                2,
+                1,
+                1
+            ],
+            "objective": 235
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 376328
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "objective": 237
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                0,
+                1,
+                1,
+                2,
+                2,
+                1
+            ],
+            "objective": 721350
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                0
+            ],
+            "customers": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "objective": 231
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                1
+            ],
+            "customers": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                0,
+                1,
+                0
+            ],
+            "objective": 234
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                2
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "objective": 855805
+        },
+        {
+            "warehouses": [
+                0,
+                1,
+                1
+            ],
+            "customers": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "objective": 230
+        },
+        {
+            "warehouses": [
+                1,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                0,
+                2,
+                0,
+                0,
+                1,
+                2,
+                0,
+                1
+            ],
+            "objective": 324279
+        },
+        {
+            "warehouses": [
+                0,
+                0,
+                0
+            ],
+            "customers": [
+                2,
+                2,
+                2,
+                0,
+                2,
+                1,
+                0,
+                0,
+                1
+            ],
+            "objective": 43562
+        },
+        {
+            "warehouses": [
+                1,
+                1,
+                1
+            ],
+            "customers": [
+                2,
+                1,
+                1,
+                1,
+                0,
+                2,
+                0,
+                1,
+                0
+            ],
+            "objective": 115824
+        }
+    ],
+    "problemType": "type03"
+}
