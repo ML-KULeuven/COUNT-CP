@@ -3,7 +3,6 @@ import numpy as np
 import cpmpy
 import glob
 import csv
-import learner
 import pickle
 import logging
 import time

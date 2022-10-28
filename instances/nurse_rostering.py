@@ -3,7 +3,7 @@ from cpmpy import *
 from cpmpy.transformations.get_variables import *
 from instance import Instance
 import numpy as np
-from learner import solutions
+# from learner import solutions
 
 def nurse_rostering_instance(nurses=7, days=7, minNurses=5, maxNurses=7):
     schedule_instance = Instance(nurses, {"inputData":{}, "formatTemplate":{}, "solutions": None, "tests":{}}, 22)
@@ -50,3 +50,29 @@ if __name__ == "__main__":
     while s.solve():
         print(cp_vars.value())
         s += ~all([var == var.value() for var in cp_vars])
+
+
+def solutions(model: Model, instance: Instance, size):
+    rng = np.random.RandomState(111)
+    s = SolverLookup.get("ortools", model)
+    # model = Model([c for c in model.constraints])
+    # model = CPM_ortools(model)
+    vars = np.hstack([instance.cp_vars[k].flatten() for k in instance.cp_vars])
+    s += sum(vars) >= 0
+    vars_lb = np.hstack([instance.var_lbs[k].flatten() for k in instance.var_lbs])
+    vars_ub = np.hstack([instance.var_ubs[k].flatten() for k in instance.var_ubs])
+
+    sols = []
+    sol_count = 0
+    while s.solve() and sol_count < size:
+        sols.append([var.value() for var in vars])
+        s += ~all([var == var.value() for var in vars])
+        initial_point = []
+        for i, v in enumerate(vars):
+            initial_point.append(rng.randint(vars_lb[i], vars_ub[i]))
+        s.solution_hint(vars, initial_point)
+        sol_count += 1
+    return sols
+
+
+

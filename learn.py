@@ -9,6 +9,9 @@ import numpy as np
 import enum
 from cpmpy import *
 
+import logging
+
+logger = logging.getLogger(__name__)
 
 # def unary_operators():
 #     def modulo(x):
