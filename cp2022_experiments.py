@@ -140,7 +140,9 @@ if __name__ == "__main__":
             ptype = 20
         elif args.exp == "magic":
             ptype = 21
-
+        else:
+            raise Exception("Undefined experiment")
+        
         path = f"instances/type{ptype:02d}/inst*.json"
         files = sorted(glob.glob(path))
         instances = []
