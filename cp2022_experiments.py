@@ -7,15 +7,17 @@ import time
 from multiprocessing import Pool
 import argparse
 import itertools as it
+
+from cpmpy_helper import statistic
 from instance import Instance
 from learn import learn, create_model
-from instances.type06 import model_type06
 from instances.nurse_rostering import nurse_rostering_instance
 from experiments import true_model
-from cpmpy.solvers import CPM_ortools
+
 from cpmpy import *
 
 logger = logging.getLogger(__name__)
+
 
 def experiment_time_taken(instances, training_size, symbolic=True):
 
